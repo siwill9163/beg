@@ -1,28 +1,36 @@
 .navbar{
     display: flex;
     align-items: center;
-    width: 100vw;
+    justify-content: space-around;
+    margin: 20px 10px;
 }
-.nav-left{
-    display: flex;
-    padding: 40px auto;
-}
-.nav-left h1{
+.logo-name{
     font-size: 30px;
-    background: linear-gradient(267deg, #403b4a, #e7e9bb);
+    background: linear-gradient(267deg, #403b4a, #e7e9bb, #403b4a);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-left: -18px;
 }
-.nav-right{
+.nav-menu{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 40px 0px;
-}
-.nav-right li{
-    text-decoration: none;
-    color: white;
+    list-style: none;
+    gap: 50px;
     font-size: 20px;
+}
+.nav-menu li{
     cursor: pointer;
+}
+.connect{
+    font-size: 30px;
+    background: linear-gradient(267deg, #403b4a, #e7e9bb, #403b4a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    transition: 0.2s;
+}
+.connect:hover{
+    transform: scale(1.05);
 }
