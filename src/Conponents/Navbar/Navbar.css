@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+.nav-left{
+    display: flex;
+    padding: 40px auto;
+}
+.nav-left h1{
+    font-size: 30px;
+    background: linear-gradient(267deg, #403b4a, #e7e9bb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+.nav-right li{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

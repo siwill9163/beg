@@ -3,8 +3,18 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-        hello you
+    <div className='navbar'>
+
+        <div className="nav-left">
+            <h1 className='logo-name'>BROWN ENVELOPE</h1>
+        </div>
+
+        <div className="nav-right">
+            <li> About Brown Envelope</li>
+            <li>Rules of Use</li>
+            <li>Connect with us</li>
+        </div>
+
     </div>
   )
 }
