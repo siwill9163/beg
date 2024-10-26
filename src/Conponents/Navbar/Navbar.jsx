@@ -7,7 +7,6 @@ const Navbar = () => {
 
         <div className="nav-left">
             <h1 className='logo-name'>BROWN ENVELOPE</h1>
-        </div>
 
         <div className="nav-right">
             <li> About Brown Envelope</li>
